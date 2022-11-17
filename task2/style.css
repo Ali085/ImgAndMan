@@ -1,0 +1,124 @@
+.head{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 100px;
+    background-color: black;
+}
+.eyeLeft{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left:25%;
+    display: inline-block;
+    margin-top: 55px;
+    background-color: white;
+    /* Animation */
+    animation-name: close;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.eyeBlackLeft{
+    width: 20px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left:27%;
+    margin-top: 10px;
+    background-color: rgb(4, 1, 1);
+     
+}
+.eyeRight{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left:9%;
+    display: inline-block;
+    margin-top: 55px;
+    background-color: white;
+}
+.eyeBlackRight{
+    width: 20px;
+    height: 13px;
+    border-radius: 50%;
+    margin-left:27%;
+    margin-top: 10px;
+    background-color: rgb(4, 1, 1);
+}
+.mouth{
+    width: 100px;
+    height: 3px;
+    margin-top: 40px;
+    margin-left: 53px;
+    display: inline-block;
+    background-color: white;
+}
+.main{
+    width: 100%;
+    height: 650px;
+}
+.humanBody{
+    height: 600px;
+    width: 200px;
+    background-color: black;
+    margin-left: 500px;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.leftArm{
+    height: 500px ;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+    margin-left: 470px ;
+    margin-top: 40px;
+}
+.rightArm{
+    height: 500px ;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+    margin-left:712px ;
+    margin-top: 40px;
+     /* Animation */
+     animation-name: hello;
+     animation-duration: 1s;
+     animation-timing-function: ease-in-out;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+.leftFoot{
+    height: 500px;
+    width: 25px;
+    background-color: black;
+    margin-left: 535px;
+    position: absolute;
+}
+.rightFoot{
+    height: 500px;
+    width: 25px;
+    background-color: black;
+    margin-left: 638px;
+}
+
+@keyframes hello{
+    0%{
+        transform-origin: top left;
+        transform: rotate(-0.2turn);
+    }
+    100%{
+        transform-origin: top left;
+        transform:rotateX(0.0turn);
+    }
+}
+@keyframes close{
+    0%{
+        transform: rotateX(90deg);
+    }
+    100%{
+        
+    }
+}

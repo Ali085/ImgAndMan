@@ -1,0 +1,55 @@
+img{
+    width: 290px;
+    height: 290px;
+   
+}
+p{
+    margin: 3px;
+}
+a{
+
+    background-color: rgb(0, 89, 255);
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+.body{
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5px;
+    z-index: 1;
+    
+}
+.card{
+    overflow: hidden;
+    margin: 0 auto;
+    transition: .5s;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+.card img{
+    transition: 0.2s all ease-in-out;
+    background-image: url(./tyler.jpg);
+    background-size:100%;
+    background-position: center;
+
+    
+    
+    
+}
+.card:hover  img {
+   background-size: 120%;
+   cursor:pointer;
+    
+   
+}
+.card:hover{
+    box-shadow: 2px 3px 10px rgb(0 0 0 / 0.9);
+}
